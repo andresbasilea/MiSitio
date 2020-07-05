@@ -1,0 +1,238 @@
+body{
+  z-index: 2;
+  text-align: center; /*will center everythung that doesnt have a width set*/
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #40514E;
+}
+
+h1{
+  font-size: 5.625em; /*16px = 100%*/
+  /*em is also used in size  1em = 16px = 100% using em or % is dynamic sizing
+  if there's a value in body font size its inherited and adds up to what we put in
+  h1... for example, if body has font size of 2em and h1 has 3em, then it will actually be
+  5 em, unless we use 'rem' instead of 'em' in the h1 size.*/
+  margin-top: 0;
+  font-family: 'Sacramento',cursive;
+  padding-top: 50px;
+  margin: 50px auto 0 auto;
+  color: #900c3f;
+  line-height: 2;
+  /*width: 10%;
+  margin: 0 auto 0 auto; /*will center the element horizontally or vertically
+  */
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  color: #900c3f;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #127681;
+}
+
+p{
+  line-height: 2;
+}
+
+.texto1{
+  font-family: "Rajdhani",sans-serif;
+  font-size: 1.7em;
+  color: #d92027;
+  font-weight: normal;
+}
+
+.textoIntro{
+  font-size: 1.1em;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 37%;
+  text-align: center;
+}
+
+a{
+  color: #ddf3f5;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 15px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #4cd3c2;
+  border-width: 7px;
+  width: 10%;
+}
+
+.hr2{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #4cd3c2;
+  border-width: 7px;
+  width: 10%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.TOP_DIV{
+  background-color: #ddf3f5;
+  padding: 20px;
+  padding-top: 100px;
+  position: relative;
+  margin-bottom: 30px;
+  height:800px;
+  /*border: solid 10px;*/
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom:300px;
+  left:350px;
+}
+
+.top-cloud{
+  margin-top: 30px;
+  position: absolute;
+  top: 54px;
+  right: 350px;
+
+}
+
+.MIDDLE_DIV{
+  margin-top: 100px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.BOTTOM_DIV{
+  border: 0;
+  background-color: #12cad6;
+  padding: 50px 0 20px;
+}
+
+#imagenPerfil{
+  width: 20%;
+}
+
+/*
+.textolampara{
+  clear: left;
+}*/
+
+.skillsIMG1{
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.skillsIMG2{
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 50px;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.nav_bar{
+  background-color: white;
+  height: 80px;
+  width:100%;
+  z-index: 1;
+  position: fixed;
+}
+
+.spotify{
+  position: absolute;
+  right:0;
+}
+
+.logo{
+  height:80px;
+  position:absolute;
+  left:0;
+}
+
+.contact-me{
+  margin-top: 0;
+  width: 40%;
+  margin: auto;
+}
+
+
+.btn {
+   border-top: 1px solid #eaf5fc;
+   background: #65a5cf;
+   background: -webkit-gradient(linear, left top, left bottom, from(#32e0c3), to(#65a5cf));
+   background: -webkit-linear-gradient(top, #32e0c3, #65a5cf);
+   background: -moz-linear-gradient(top, #32e0c3, #65a5cf);
+   background: -ms-linear-gradient(top, #32e0c3, #65a5cf);
+   background: -o-linear-gradient(top, #32e0c3, #65a5cf);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 19px;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.btn:hover {
+   border-top-color: white;
+   background: #c9d6df;
+   color: #52616b;
+   }
+
+.btn:active {
+   border-top-color: #70fff3;
+   background: #70fff3;
+   }
+
+.copyright{
+  font-size: 0.75rem;
+  color: white;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+*/
